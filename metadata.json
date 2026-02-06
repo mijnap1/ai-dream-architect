@@ -1,0 +1,8 @@
+
+{
+  "name": "Oneiro: AI Dream Architect",
+  "description": "A sophisticated interactive dream journal that uses Gemini to interpret your subconscious, visualize dreamscapes with AI image generation, and track psychological patterns through interactive data visualizations.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
