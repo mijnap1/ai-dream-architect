@@ -132,9 +132,15 @@ const App: React.FC = () => {
       <footer className="fixed bottom-0 left-0 right-0 p-6 pointer-events-none z-50">
         <div className="max-w-6xl mx-auto flex justify-end">
           <div className="pointer-events-auto">
-            <div className="w-10 h-10 glass rounded-full flex items-center justify-center text-slate-500 hover:text-white hover:border-white/20 transition-all cursor-pointer shadow-2xl">
+            <a
+              href="https://github.com/mijnap1/ai-dream-architect"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Open GitHub repository"
+              className="w-10 h-10 glass rounded-full flex items-center justify-center text-slate-500 hover:text-white hover:border-white/20 transition-all cursor-pointer shadow-2xl"
+            >
               <Github className="w-4 h-4" />
-            </div>
+            </a>
           </div>
         </div>
       </footer>
